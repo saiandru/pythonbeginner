@@ -88,8 +88,11 @@ print("hello" * (5+4))
 print("hello" * 5 + "4")
 
 today="friday"
-#we get boolean output
+#we get boolean output as "in" checks the value in today and gives boolean output of true or false
 print("day" in today)
 print("fri"in today)
+print("thu" in today)
+print("parrot" in today)
+
 
 
