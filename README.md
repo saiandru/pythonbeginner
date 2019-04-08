@@ -1,2 +1,2 @@
 # pythonbeginner
-learning scripts of python
+learning scripts of python from udemy
