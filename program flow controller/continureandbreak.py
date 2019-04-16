@@ -2,7 +2,7 @@ shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
 for item in shopping_list:
     if item == 'spam':
         # print("iam ignoting"+ item)
-        continue  # here it bypasses or stops processing that particular block of code
+        continue  # here it bypasses or stops processing that particular block of code if match is found
     print("Buy" + item)
 
 shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
