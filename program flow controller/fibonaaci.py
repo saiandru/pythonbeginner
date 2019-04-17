@@ -1,7 +1,7 @@
-number="0,1,2,3,4"
-fibonaci=''
-for i in number:
-    for j in range(1,5):
-        i=i+j
-fibonaci=fibonaci+i
-print("the follown fibancai sequenc {}".format(fibonaci))
+first=-1
+second=1
+for j in range(0,9):
+        j=first+second
+        first=second
+        second=j
+        print(j,end='\t')
