@@ -35,6 +35,8 @@ for item in meal:
 
 if nasty_food_item:
     print("cant I have anything without spam in it")
+else:
+    print("choose one")
 
 
 meal = ["egg", "bacon", "beans", "sausages"]
